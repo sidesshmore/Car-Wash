@@ -140,7 +140,7 @@ nav ul li a {
     background-color: #F8F9FB;
     min-width: 100vw;
     min-height: 100vh;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     font-family: var(--body-font-family);
