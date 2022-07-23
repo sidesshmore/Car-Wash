@@ -9,6 +9,7 @@
   <title>Car Wash</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
       <ul>
           <li><a href="#header">HOME</a></li>
           <li><a href="#about-us">ABOUT US</a></li>
-          <li><a href="#price-card">PRICES</a></li>
+          <li><a href="#price-id">PRICES</a></li>
           <li><a href="#test">TESTIMONIALS</a></li>
           <li><a href="#maps-forms">CONTACT</a></li>
       </ul>
@@ -96,7 +97,7 @@
 
 
   <!-- ***************************************************PRICE CARD************************************************ -->
-  <div class="price-heading">
+  <div class="price-heading" id="price-id">
     <h1>
       Price Plans
     </h1>
@@ -289,12 +290,39 @@
   <!-- ***************************************************FOOTER************************************************ -->
   <section id="footer">
     <div class="footer-row">
-      <p> Made with ♥️ by <b>Team i5</b> - <a href="">Sidessh</a> & <a href="">Shaktivel</a></p>
+      <p class="footer-p"> Made with ♥️ by <b>Team i5</b> - <a href="">Sidessh</a> & <a href="">Shaktivel</a></p>
       
     </div>
-
-
   </section>
+
+    <!-- ***************************************************JAVA-SCRIPT************************************************ -->
+
+    
+      <script>
+        var menubtn = document.getElementById("menu-btn")
+        var sidenav = document.getElementById("side-nav")
+
+        sidenav.style.right = "-250px";
+        menubtn.onclick = function () {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0";
+            }
+            else {
+                sidenav.style.right = "-250px";
+            }
+        }
+
+
+
+
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+
+      </script>
+
 
 
 
