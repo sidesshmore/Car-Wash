@@ -394,3 +394,25 @@ nav ul li a {
 
 
  /* ********************************************************FOOTER***************************************************** */
+.footer-row p{
+    font-size: 20px;
+    color: white;
+}
+
+.footer-row{
+    background-color: #3b7eea;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-row a{
+    color: white;
+
+}
+
+.footer-row a:hover{
+    color: black;
+    font-size: 23px;
+}
