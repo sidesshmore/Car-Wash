@@ -2,7 +2,7 @@
 /* ********************************************************HEADER***************************************************** */
 #header {
     height: 100vh;
-    background-image: url("/images/background.png");
+    background-image: repeating-linear-gradient(45deg, #3b7eea, white 33.3%);
     background-size: cover;
     background-position: center;
 
@@ -10,6 +10,10 @@
 
 .container {
     margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .logo {
