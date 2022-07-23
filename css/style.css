@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+
 
 /* ********************************************************HEADER***************************************************** */
 #header {
@@ -152,6 +159,15 @@ nav ul li a {
     background-color: #444;
 }
 
+.col h3{
+    font-size: 25px;
+    ffont-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+.col p{
+    font-family: 'Lato', sans-serif;
+}
 
 
 
