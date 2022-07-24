@@ -120,11 +120,26 @@ nav ul li a {
 #menu-btn {
     width: 120px;
     position: fixed;
-    top: 50px;
-    right: 25px;
+    top: 30px;
+    right: 5px;
     z-index: 2;
 }
 
+
+
+nav ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: white;
+  display: block;
+  margin: 0;
+  transition: 0.5s;
+}
+
+nav ul li:hover::after{
+  width: 50%;
+}
 
 
 
