@@ -60,9 +60,8 @@ h1 {
 }
 
 p {
-    font-size: 15px;
-    line-height: 18px;
-    color: #777;
+    line-height: 30px;
+    color: rgb(73, 72, 72);
 }
 
 .header-text button {
@@ -180,6 +179,7 @@ nav ul li:hover::after{
     font-size: 25px;
     font-family: 'Lato', sans-serif;
     font-weight: bolder;
+    /* text-transform: uppercase; */
 }
 
 .process-col p{
@@ -609,6 +609,6 @@ color: white;
 }
 
 .footer-row a:hover{
-  color: black;
+  color: yellow;
   font-size: 23px;
 }
