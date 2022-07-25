@@ -32,11 +32,11 @@
 
     <nav id="side-nav">
       <ul>
-          <li><a href="#header">HOME</a></li>
-          <li><a href="#about-us">ABOUT US</a></li>
-          <li><a href="#price-id">PRICES</a></li>
-          <li><a href="#test">TESTIMONIALS</a></li>
-          <li><a href="#maps-forms">CONTACT</a></li>
+          <li><a href="#header" class="header anchor">HOME</a></li>
+          <li><a href="#about-us" class="about-us anchor">ABOUT US</a></li>
+          <li><a href="#price-id" class="price-id anchor">PRICES</a></li>
+          <li><a href="#test" class="test anchor">TESTIMONIALS</a></li>
+          <li><a href="#maps-forms" class="maps-forms anchor">CONTACT</a></li>
       </ul>
   </nav>
 
@@ -346,11 +346,12 @@
             }
         }
 
-        sidenav.onclick=function(){
-          
+       var noOfLinks=document.querySelectorAll(".anchor").length;
+       for(var i=0;i<noOfLinks;i++){
+        document.querySelectorAll(".anchor")[i].addEventListener("click",function(){
           sidenav.style.right="-250px";
-         
-          }
+        });
+       }
 
 
 
