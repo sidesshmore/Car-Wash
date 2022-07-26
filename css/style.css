@@ -687,6 +687,7 @@ color: white;
   font-size: 23px;
 }
 
+ /* ********************************************************MEDIA-QUERY***************************************************** */
 
 
 
@@ -699,6 +700,11 @@ color: white;
       justify-content: center;
       max-width: 100%;
     }
+
+    .logo {
+      margin: 5px 0 0 20px;
+      width: 150px;
+  }
     
     .col{
       flex: 100%;
@@ -716,6 +722,13 @@ color: white;
       display: inline;
     }
 
+    .header-text {
+      max-width: 350px;
+      margin-top: 50px;
+      margin-left: 20px;
+      /* text-align: center; */
+  }
+
    
     .process-col{
       display: inline;
@@ -724,6 +737,7 @@ color: white;
     .background-img{
       position:absolute; right: 50px;top: 100px;
       width: 250px;
+      display: none;
      
 
     }
