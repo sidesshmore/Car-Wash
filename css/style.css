@@ -8,10 +8,11 @@
 
 
 
-
 /* ********************************************************HEADER***************************************************** */
+
 #header {
     height: 100vh;
+    
     background-size: cover;
     background-position: center;
     margin-bottom: 70px;  
