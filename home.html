@@ -16,7 +16,9 @@
 <body>
   <!-- ***************************************************HEADER************************************************ -->
   <section id="header">
-    <a href="#header"><img src="images/logo.png" alt="" class="logo"></a>
+    <div class="logo1">
+      <a href="#header"><img src="images/logo.png" alt="" class="logo"></a>
+    </div>
     <div class="container">
       <div class="header-text">
         <h1>Get your cars washed<br> from the best in entire <br> New Mexico  🚗✨</h1>
@@ -29,6 +31,8 @@
         <img src ="images/background.png" class="background-img" alt="">
       
     </div>
+
+    
 
     <nav id="side-nav">
       <ul>
@@ -67,28 +71,28 @@
           <img src="images/step1.png" alt="">
           <hr>
           <h3>Water Jet Washing</h3>
-          <p>Car is subjected to high speed water <br>  ejectors to remove dust/debris from every nook & corner.</p>
+          <p id="para">Car is subjected to high speed water <br>  ejectors to remove dust/debris from every nook & corner.</p>
         </div>
 
         <div class="process-col">
           <img src="images/step2.png" alt="">
           <hr>
           <h3>Shampoo Washing</h3>
-          <p>Lather created using oil/dust <br>absorbing shampoo is sprayed over the entire car using hose pipe.</p>
+          <p id="para">Lather created using oil/dust <br>absorbing shampoo is sprayed over the entire car using hose pipe.</p>
         </div>
 
         <div class="process-col">
           <img src="images/step3.png" alt="">
           <hr>
           <h3>Hydraulic Lift Washing</h3>
-          <p>Car is lifted up using hydraulic car lift <br>to clean the lower areas of the car which aren't visible.</p>
+          <p id="para">Car is lifted up using hydraulic car lift <br>to clean the lower areas of the car which aren't visible.</p>
         </div>
 
         <div class="process-col">
           <img src="images/step4.png" alt="">
           <hr>
           <h3>Robotic Washing</h3>
-          <p>Fully automatic robotic arm is used <br> to sponge-clean your car and apply shiny coating.</p>
+          <p id="para">Fully automatic robotic arm is used <br> to sponge-clean your car and apply shiny coating.</p>
         </div>
       </div>
     </div>
@@ -381,6 +385,11 @@
 	speed: 1000,
 	speedAsDuration: true
 });
+
+const chk = document.getElementById('chk');
+
+
+
 
       </script>
 
