@@ -19,6 +19,10 @@
   <section id="header">
     <div class="logo1">
       <a href="#header"><img src="images/logo.png" alt="" class="logo"></a>
+
+      <button onclick="myFunction()">Toggle dark mode</button>
+
+
     </div>
     <div class="container">
       <div class="header-text">
@@ -389,10 +393,27 @@
 
 const chk = document.getElementById('chk');
 
-
-
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+   
+}
 
       </script>
+
+<style>
+
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+   
+  }
+
+  
+  
+  
+  </style>
 
 
 
