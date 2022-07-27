@@ -6,7 +6,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Car Wash</title>
+  <title>A1A Car Wash 🚗</title>
+  <link rel="shortcut icon" href="images/favicon (1).ico">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -16,7 +17,9 @@
 <body>
   <!-- ***************************************************HEADER************************************************ -->
   <section id="header">
-    <a href="#header"><img src="images/logo.png" alt="" class="logo"></a>
+    <div class="logo1">
+      <a href="#header"><img src="images/logo.png" alt="" class="logo"></a>
+    </div>
     <div class="container">
       <div class="header-text">
         <h1>Get your cars washed<br> from the best in entire <br> New Mexico  🚗✨</h1>
@@ -29,6 +32,8 @@
         <img src ="images/background.png" class="background-img" alt="">
       
     </div>
+
+    
 
     <nav id="side-nav">
       <ul>
@@ -64,31 +69,31 @@
     <div class="container">
       <div class="process-row">
         <div class="process-col">
-          <img src="images/step1.png" alt="">
+          <img class="img1" src="images/step1.png" alt="">
           <hr>
           <h3>Water Jet Washing</h3>
-          <p>Car is subjected to high speed water <br>  ejectors to remove dust/debris from every nook & corner.</p>
+          <p id="para">Car is subjected to high speed water <br>  ejectors to remove dust/debris from every nook & corner.</p>
         </div>
 
         <div class="process-col">
           <img src="images/step2.png" alt="">
           <hr>
           <h3>Shampoo Washing</h3>
-          <p>Lather created using oil/dust <br>absorbing shampoo is sprayed over the entire car using hose pipe.</p>
+          <p id="para">Lather created using oil/dust <br>absorbing shampoo is sprayed over the entire car using hose pipe.</p>
         </div>
 
         <div class="process-col">
           <img src="images/step3.png" alt="">
           <hr>
           <h3>Hydraulic Lift Washing</h3>
-          <p>Car is lifted up using hydraulic car lift <br>to clean the lower areas of the car which aren't visible.</p>
+          <p id="para">Car is lifted up using hydraulic car lift <br>to clean the lower areas of the car which aren't visible.</p>
         </div>
 
         <div class="process-col">
           <img src="images/step4.png" alt="">
           <hr>
           <h3>Robotic Washing</h3>
-          <p>Fully automatic robotic arm is used <br> to sponge-clean your car and apply shiny coating.</p>
+          <p id="para">Fully automatic robotic arm is used <br> to sponge-clean your car and apply shiny coating.</p>
         </div>
       </div>
     </div>
@@ -218,7 +223,7 @@
         <div class="col">
           <div class="testimonial">
             <img src="images/p1.png" alt="">
-            <div class="name">Full name</div>
+            <div class="name">Steven</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -235,8 +240,8 @@
   
         <div class="col">
           <div class="testimonial">
-            <img src="images/p2.png" alt="">
-            <div class="name">Full name</div>
+            <img src="https://mediamass.net/jdd/public/documents/celebrities/7869.jpg" alt="">
+            <div class="name">Lydia</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -255,8 +260,8 @@
 
         <div class="col">
           <div class="testimonial">
-            <img src="images/p3.png" alt="">
-            <div class="name">Full name</div>
+            <img src="https://i.pinimg.com/564x/10/1f/bb/101fbbe8be33cdf02927ec58271277d1.jpg" alt="">
+            <div class="name">Marie</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -289,8 +294,8 @@
         <div class="hero">
           <div class="social-links">
             <!-- <a href=""><i class="fab fa-facebook-f"></i></a> -->
-            <a href="" class="insta"><i class="fab fa-instagram"></i></a>
-            <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/a1acarwashbv?igshid=YmMyMTA2M2Y=" class="insta" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/a1acarwash2?s=20&t=RS58hv64Uw5spNVKB7vWrw" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
             <!-- <a href=""><i class="fab fa-github"></i></a> -->
             <!-- <a href=""><i class="fab fa-linkedin-in"></i></a> -->
           </div>
@@ -381,6 +386,11 @@
 	speed: 1000,
 	speedAsDuration: true
 });
+
+const chk = document.getElementById('chk');
+
+
+
 
       </script>
 

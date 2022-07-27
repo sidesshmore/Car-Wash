@@ -4,19 +4,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-
-
+/* ********************************************************DARK_MODE***************************************************** */
 
 
 
 /* ********************************************************HEADER***************************************************** */
+
 #header {
     height: 100vh;
+    
     background-size: cover;
     background-position: center;
     margin-bottom: 70px;  
     background-image: repeating-linear-gradient(45deg, #a6c8ff, white 33.3%);
     
+}
+
+.logo1{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
 }
 
 .background-img{
@@ -50,6 +57,7 @@ h1 {
     font-size: 34px;
 }
 
+
 .square {
     height: 12px;
     width: 12px;
@@ -68,7 +76,7 @@ h1 {
     cursor: pointer;
 }
 
-p {
+.para {
     line-height: 30px;
     color: rgb(73, 72, 72);
 }
@@ -161,9 +169,12 @@ nav ul{
 
 
 /* ********************************************************ABOUT US***************************************************** */
-#about-us{
-  
+#about-us.dark{
+  background: #292C35;
+  color: white;
+    
 }
+
 .process-row{
     display: flex;
     margin-bottom: 150px;
@@ -686,10 +697,11 @@ color: white;
   font-size: 23px;
 }
 
+ /* ********************************************************MEDIA-QUERY***************************************************** */
 
 
 
-   @media screen and (max-width:960px) {
+ @media only screen and (max-width: 600px) {
 
 
 
@@ -697,7 +709,14 @@ color: white;
       display: inline;
       justify-content: center;
       max-width: 100%;
+      align-items: center;
+      /* margin: 0 auto; */
     }
+
+    .logo {
+      margin: 5px 0 0 20px;
+      width: 125px;
+  }
     
     .col{
       flex: 100%;
@@ -712,20 +731,149 @@ color: white;
      width:100% ; 
     }
     .process-row{
-      display: inline;
+      display: block;
+      justify-content: center;
     }
+
+    .header-text {
+      max-width: 350px;
+      margin-top: 50px;
+      margin-left: 20px;
+      /* text-align: center; */
+  }
 
    
     .process-col{
       display: inline;
+      /* justify-content: center;
+      margin: 0 auto; */
     }
 
     .background-img{
       position:absolute; right: 50px;top: 100px;
       width: 250px;
+      display: none;
      
 
     }
+
+    #menu-btn {
+      width: 60px;
+      position: fixed;
+      top: 40px;
+      right: 10px;
+      z-index: 2;
+  }
+
+  .price-column {
+    background-color: white;
+    display: block;
+    box-shadow: 0 7px 30px rgba(52, 31, 97, 0.1);
+    padding: 1.2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    /* font-size: 11px; */
+    max-width: 130px;
+    /* text-align: center; */
+    border-radius: 8px;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  
+  .price-column.popular {
+    position: relative;
+    background-color: var(--accent-color);
+    box-shadow: 0 7px 30px rgba(52, 13, 135, 0.3);
+    color: white;
+    margin-top: -1.5rem;
+    padding-top: 3.5rem;
+    margin-bottom: -1.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .feature {
+    /* display: flex; */
+    align-items: center;
+    padding-right: 5px;
+    /* margin: .5rem; */
+    font-size: 12px;
+    /* text-align: center; */
+    justify-content: center;
+  }
+
+  .cta {
+    border: none;
+    background-color: var(--accent-color);
+    color: white;
+    width: 80px;
+    padding: .75rem 1rem;
+    cursor: pointer;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 3rem;
+    transition: 100ms;
+    font-size: 10px;
+    transform: scale(1);
+  }
+
+  .price {
+    font-size: 2.5rem;
+    display: flex;
+  }
+  
+  .dollar-sign {
+    font-size: 1rem;
+    margin-top: .5rem;
+    margin-right: .25rem;
+  }
+  
+  
+  .plan-name {
+    text-transform: uppercase;
+    font-size: .7rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  .price-comparison {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    /* margin: 1rem; */
+    margin-bottom: 100px;
+  }
+
+  .right iframe{
+    width: 300px;
+    margin: 10px;
+    border: 1px solid black;
+
+  }
+
+  .footer-row{
+    background-color: #3b7eea;
+    height: 80px;
+    width: 100%;
+    padding:50px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #header {
+    height: 85vh;
+    
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 70px;  
+    background-image: repeating-linear-gradient(45deg, #a6c8ff, white 33.3%);
+    
+}
+
+  
+ 
 
     
     
