@@ -544,6 +544,7 @@ nav ul{
 }
 
 .social-links a {
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
