@@ -690,7 +690,7 @@ nav ul{
   
   .Form form .btn1:hover{
     border: 2px solid #3b7eea;
-    background: black;
+    /* background: black; */
     transform: scale(1.1);
   }
   
