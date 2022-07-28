@@ -117,6 +117,8 @@ h1 {
     padding: 18px 30px;
     background-color: transparent;
     border: solid 2px #3b7eea;
+    background-color: #1363DF;
+    color: white;
     font-weight: bold;
     font-size: 15px;
     outline: none;
