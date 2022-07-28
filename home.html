@@ -8,11 +8,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>A1A Car Wash 🚗</title>
   <link rel="shortcut icon" href="images/favicon (1).ico">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+
+  
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-  <link rel="stylesheet" href="css/style69.css">
+ 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    function myFunction(){
+
+    
+        var fileref=document.createElement("link")
+        fileref.setAttribute("rel", "stylesheet")
+        fileref.setAttribute("type", "text/css")
+        fileref.setAttribute("href", "css/style69.css")
+        document.getElementsByTagName("head")[0].appendChild(fileref)
+      
+      
+}
+   
+  </script>
+ 
 </head>
 
 <body>
@@ -21,7 +39,8 @@
     <div class="logo1">
       <a href="#header"><img src="images/logo.png" alt="" class="logo"></a>
 
-      <button onclick="myFunction()" class="dark-mode"> Toggle dark mode</button>
+      <button onclick="myFunction()" > Toggle dark mode</button>
+      <button onclick="document.location='home.html'">Light mode</button>
 
 
     </div>
@@ -392,30 +411,12 @@
 	speedAsDuration: true
 });
 
-const chk = document.getElementById('chk');
 
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-   
-}
 
-      </script>
 
-<style>
 
-  
-  .dark-mode {
-    background-color: black;
-    color: white;
-   
-  }
-
-  
-  
-  
-  </style>
-
+</script>
+    
 
 
 
