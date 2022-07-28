@@ -565,7 +565,8 @@ nav ul{
   font-size: 30px;
   line-height: 80px;
   position: relative;
-  z-index: 10;
+  
+  z-index: -1;
   transition: color 0.5s;
 }
 
