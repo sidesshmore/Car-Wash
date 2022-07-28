@@ -118,6 +118,7 @@ h1 {
     font-weight: bold;
     font-size: 15px;
     outline: none;
+    background-color: #1363DF;
     border-radius: 7px;
     cursor: pointer;
 }
